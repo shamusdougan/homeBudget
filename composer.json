@@ -1,0 +1,44 @@
+{
+    "name": "dezmont765/yii2-rbac-advanced-template",
+    "description": "Yii 2 Advanced Application Template With Rbac",
+    "keywords": ["yii2", "framework", "advanced", "application template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DezMonT765/yii2-grid-view-library"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/DezMonT765/zyx-phpmailer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "dezmont765/yii2-grid-view-library" : "dev-master",
+        "zyx/zyx-phpmailer": "dev-log-fix",
+        "bower-asset/ckeditor": "4.*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
